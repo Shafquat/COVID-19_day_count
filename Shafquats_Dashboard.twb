@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20201.20.0219.0753                               -->
-<workbook original-version='18.1' source-build='2020.1.0 (20201.20.0219.0753)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2020.1.0 (20201.20.0219.0753)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
-    <AutoCreateAndUpdateDSDPhoneLayouts />
     <_.fcp.MarkAnimation.true...MarkAnimation />
     <SheetIdentifierTracking />
     <WindowsPersistSimpleIdentifiers />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
+  <repository-location id='Shafquats_Dashboard' path='/workbooks' revision='1.2' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -16,7 +16,222 @@
   <datasources>
     <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
       <aliases enabled='yes' />
-      <column caption='Country2' datatype='string' name='[Country1 (copy)_772085893327544320]' param-domain-type='list' role='measure' type='nominal' value='&quot;Canada&quot;'>
+      <column caption='Country2' datatype='string' name='[Country1 (copy)_772085893327544320]' param-domain-type='list' role='measure' type='nominal' value='&quot;Taiwan&quot;'>
+        <calculation class='tableau' formula='&quot;Taiwan&quot;' />
+        <members>
+          <member value='&quot;Afghanistan&quot;' />
+          <member value='&quot;Albania&quot;' />
+          <member value='&quot;Algeria&quot;' />
+          <member value='&quot;Andorra&quot;' />
+          <member value='&quot;Angola&quot;' />
+          <member value='&quot;Antigua and Barbuda&quot;' />
+          <member value='&quot;Argentina&quot;' />
+          <member value='&quot;Armenia&quot;' />
+          <member value='&quot;Aruba&quot;' />
+          <member value='&quot;Australia&quot;' />
+          <member value='&quot;Austria&quot;' />
+          <member value='&quot;Azerbaijan&quot;' />
+          <member value='&quot;Bahamas, The&quot;' />
+          <member value='&quot;Bahrain&quot;' />
+          <member value='&quot;Bangladesh&quot;' />
+          <member value='&quot;Barbados&quot;' />
+          <member value='&quot;Belarus&quot;' />
+          <member value='&quot;Belgium&quot;' />
+          <member value='&quot;Benin&quot;' />
+          <member value='&quot;Bhutan&quot;' />
+          <member value='&quot;Bolivia&quot;' />
+          <member value='&quot;Bosnia and Herzegovina&quot;' />
+          <member value='&quot;Brazil&quot;' />
+          <member value='&quot;Brunei&quot;' />
+          <member value='&quot;Bulgaria&quot;' />
+          <member value='&quot;Burkina Faso&quot;' />
+          <member value='&quot;Cabo Verde&quot;' />
+          <member value='&quot;Cambodia&quot;' />
+          <member value='&quot;Cameroon&quot;' />
+          <member value='&quot;Canada&quot;' />
+          <member value='&quot;Cape Verde&quot;' />
+          <member value='&quot;Cayman Islands&quot;' />
+          <member value='&quot;Central African Republic&quot;' />
+          <member value='&quot;Chad&quot;' />
+          <member value='&quot;Channel Islands&quot;' />
+          <member value='&quot;Chile&quot;' />
+          <member value='&quot;China&quot;' />
+          <member value='&quot;Colombia&quot;' />
+          <member value='&quot;Congo (Brazzaville)&quot;' />
+          <member value='&quot;Congo (Kinshasa)&quot;' />
+          <member value='&quot;Costa Rica&quot;' />
+          <member value='&quot;Cote d&apos;Ivoire&quot;' />
+          <member value='&quot;Croatia&quot;' />
+          <member value='&quot;Cruise Ship&quot;' />
+          <member value='&quot;Cuba&quot;' />
+          <member value='&quot;Curacao&quot;' />
+          <member value='&quot;Cyprus&quot;' />
+          <member value='&quot;Czech Republic&quot;' />
+          <member value='&quot;Czechia&quot;' />
+          <member value='&quot;Denmark&quot;' />
+          <member value='&quot;Djibouti&quot;' />
+          <member value='&quot;Dominica&quot;' />
+          <member value='&quot;Dominican Republic&quot;' />
+          <member value='&quot;East Timor&quot;' />
+          <member value='&quot;Ecuador&quot;' />
+          <member value='&quot;Egypt&quot;' />
+          <member value='&quot;El Salvador&quot;' />
+          <member value='&quot;Equatorial Guinea&quot;' />
+          <member value='&quot;Eritrea&quot;' />
+          <member value='&quot;Estonia&quot;' />
+          <member value='&quot;Eswatini&quot;' />
+          <member value='&quot;Ethiopia&quot;' />
+          <member value='&quot;Faroe Islands&quot;' />
+          <member value='&quot;Fiji&quot;' />
+          <member value='&quot;Finland&quot;' />
+          <member value='&quot;France&quot;' />
+          <member value='&quot;French Guiana&quot;' />
+          <member value='&quot;Gabon&quot;' />
+          <member value='&quot;Gambia, The&quot;' />
+          <member value='&quot;Georgia&quot;' />
+          <member value='&quot;Germany&quot;' />
+          <member value='&quot;Ghana&quot;' />
+          <member value='&quot;Gibraltar&quot;' />
+          <member value='&quot;Greece&quot;' />
+          <member value='&quot;Greenland&quot;' />
+          <member value='&quot;Grenada&quot;' />
+          <member value='&quot;Guadeloupe&quot;' />
+          <member value='&quot;Guam&quot;' />
+          <member value='&quot;Guatemala&quot;' />
+          <member value='&quot;Guernsey&quot;' />
+          <member value='&quot;Guinea&quot;' />
+          <member value='&quot;Guyana&quot;' />
+          <member value='&quot;Haiti&quot;' />
+          <member value='&quot;Holy See&quot;' />
+          <member value='&quot;Honduras&quot;' />
+          <member value='&quot;Hong Kong&quot;' />
+          <member value='&quot;Hong Kong SAR&quot;' />
+          <member value='&quot;Hungary&quot;' />
+          <member value='&quot;Iceland&quot;' />
+          <member value='&quot;India&quot;' />
+          <member value='&quot;Indonesia&quot;' />
+          <member value='&quot;Iran&quot;' />
+          <member value='&quot;Iran (Islamic Republic of)&quot;' />
+          <member value='&quot;Iraq&quot;' />
+          <member value='&quot;Ireland&quot;' />
+          <member value='&quot;Israel&quot;' />
+          <member value='&quot;Italy&quot;' />
+          <member value='&quot;Ivory Coast&quot;' />
+          <member value='&quot;Jamaica&quot;' />
+          <member value='&quot;Japan&quot;' />
+          <member value='&quot;Jersey&quot;' />
+          <member value='&quot;Jordan&quot;' />
+          <member value='&quot;Kazakhstan&quot;' />
+          <member value='&quot;Kenya&quot;' />
+          <member value='&quot;Korea, South&quot;' />
+          <member value='&quot;Kosovo&quot;' />
+          <member value='&quot;Kuwait&quot;' />
+          <member value='&quot;Kyrgyzstan&quot;' />
+          <member value='&quot;Latvia&quot;' />
+          <member value='&quot;Lebanon&quot;' />
+          <member value='&quot;Liberia&quot;' />
+          <member value='&quot;Liechtenstein&quot;' />
+          <member value='&quot;Lithuania&quot;' />
+          <member value='&quot;Luxembourg&quot;' />
+          <member value='&quot;Macao SAR&quot;' />
+          <member value='&quot;Macau&quot;' />
+          <member value='&quot;Madagascar&quot;' />
+          <member value='&quot;Malaysia&quot;' />
+          <member value='&quot;Maldives&quot;' />
+          <member value='&quot;Malta&quot;' />
+          <member value='&quot;Martinique&quot;' />
+          <member value='&quot;Mauritania&quot;' />
+          <member value='&quot;Mauritius&quot;' />
+          <member value='&quot;Mayotte&quot;' />
+          <member value='&quot;Mexico&quot;' />
+          <member value='&quot;Moldova&quot;' />
+          <member value='&quot;Monaco&quot;' />
+          <member value='&quot;Mongolia&quot;' />
+          <member value='&quot;Montenegro&quot;' />
+          <member value='&quot;Morocco&quot;' />
+          <member value='&quot;Mozambique&quot;' />
+          <member value='&quot;Namibia&quot;' />
+          <member value='&quot;Nepal&quot;' />
+          <member value='&quot;Netherlands&quot;' />
+          <member value='&quot;New Zealand&quot;' />
+          <member value='&quot;Nicaragua&quot;' />
+          <member value='&quot;Niger&quot;' />
+          <member value='&quot;Nigeria&quot;' />
+          <member value='&quot;North Ireland&quot;' />
+          <member value='&quot;North Macedonia&quot;' />
+          <member value='&quot;Norway&quot;' />
+          <member value='&quot;Oman&quot;' />
+          <member value='&quot;Others&quot;' />
+          <member value='&quot;Pakistan&quot;' />
+          <member value='&quot;Palestine&quot;' />
+          <member value='&quot;Panama&quot;' />
+          <member value='&quot;Papua New Guinea&quot;' />
+          <member value='&quot;Paraguay&quot;' />
+          <member value='&quot;Peru&quot;' />
+          <member value='&quot;Philippines&quot;' />
+          <member value='&quot;Poland&quot;' />
+          <member value='&quot;Portugal&quot;' />
+          <member value='&quot;Puerto Rico&quot;' />
+          <member value='&quot;Qatar&quot;' />
+          <member value='&quot;Republic of Ireland&quot;' />
+          <member value='&quot;Republic of Korea&quot;' />
+          <member value='&quot;Republic of Moldova&quot;' />
+          <member value='&quot;Republic of the Congo&quot;' />
+          <member value='&quot;Reunion&quot;' />
+          <member value='&quot;Romania&quot;' />
+          <member value='&quot;Russia&quot;' />
+          <member value='&quot;Russian Federation&quot;' />
+          <member value='&quot;Rwanda&quot;' />
+          <member value='&quot;Saint Barthelemy&quot;' />
+          <member value='&quot;Saint Lucia&quot;' />
+          <member value='&quot;Saint Martin&quot;' />
+          <member value='&quot;Saint Vincent and the Grenadines&quot;' />
+          <member value='&quot;San Marino&quot;' />
+          <member value='&quot;Saudi Arabia&quot;' />
+          <member value='&quot;Senegal&quot;' />
+          <member value='&quot;Serbia&quot;' />
+          <member value='&quot;Seychelles&quot;' />
+          <member value='&quot;Singapore&quot;' />
+          <member value='&quot;Slovakia&quot;' />
+          <member value='&quot;Slovenia&quot;' />
+          <member value='&quot;Somalia&quot;' />
+          <member value='&quot;South Africa&quot;' />
+          <member value='&quot;South Korea&quot;' />
+          <member value='&quot;Spain&quot;' />
+          <member value='&quot;Sri Lanka&quot;' />
+          <member value='&quot;St. Martin&quot;' />
+          <member value='&quot;Sudan&quot;' />
+          <member value='&quot;Suriname&quot;' />
+          <member value='&quot;Sweden&quot;' />
+          <member value='&quot;Switzerland&quot;' />
+          <member value='&quot;Syria&quot;' />
+          <member value='&quot;Taipei and environs&quot;' />
+          <member value='&quot;Taiwan&quot;' />
+          <member value='&quot;Tanzania&quot;' />
+          <member value='&quot;Thailand&quot;' />
+          <member value='&quot;The Bahamas&quot;' />
+          <member value='&quot;The Gambia&quot;' />
+          <member value='&quot;Timor-Leste&quot;' />
+          <member value='&quot;Togo&quot;' />
+          <member value='&quot;Trinidad and Tobago&quot;' />
+          <member value='&quot;Tunisia&quot;' />
+          <member value='&quot;Turkey&quot;' />
+          <member value='&quot;Uganda&quot;' />
+          <member value='&quot;Ukraine&quot;' />
+          <member value='&quot;United Arab Emirates&quot;' />
+          <member value='&quot;United Kingdom&quot;' />
+          <member value='&quot;Uruguay&quot;' />
+          <member value='&quot;US&quot;' />
+          <member value='&quot;Uzbekistan&quot;' />
+          <member value='&quot;Vatican City&quot;' />
+          <member value='&quot;Venezuela&quot;' />
+          <member value='&quot;Viet Nam&quot;' />
+          <member value='&quot;Vietnam&quot;' />
+          <member value='&quot;Zambia&quot;' />
+          <member value='&quot;Zimbabwe&quot;' />
+        </members>
+      </column>
+      <column caption='Country1' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;Canada&quot;'>
         <calculation class='tableau' formula='&quot;Canada&quot;' />
         <members>
           <member value='&quot;Afghanistan&quot;' />
@@ -70,6 +285,7 @@
           <member value='&quot;Czechia&quot;' />
           <member value='&quot;Denmark&quot;' />
           <member value='&quot;Djibouti&quot;' />
+          <member value='&quot;Dominica&quot;' />
           <member value='&quot;Dominican Republic&quot;' />
           <member value='&quot;East Timor&quot;' />
           <member value='&quot;Ecuador&quot;' />
@@ -93,6 +309,7 @@
           <member value='&quot;Gibraltar&quot;' />
           <member value='&quot;Greece&quot;' />
           <member value='&quot;Greenland&quot;' />
+          <member value='&quot;Grenada&quot;' />
           <member value='&quot;Guadeloupe&quot;' />
           <member value='&quot;Guam&quot;' />
           <member value='&quot;Guatemala&quot;' />
@@ -147,6 +364,7 @@
           <member value='&quot;Mongolia&quot;' />
           <member value='&quot;Montenegro&quot;' />
           <member value='&quot;Morocco&quot;' />
+          <member value='&quot;Mozambique&quot;' />
           <member value='&quot;Namibia&quot;' />
           <member value='&quot;Nepal&quot;' />
           <member value='&quot;Netherlands&quot;' />
@@ -201,231 +419,19 @@
           <member value='&quot;Suriname&quot;' />
           <member value='&quot;Sweden&quot;' />
           <member value='&quot;Switzerland&quot;' />
+          <member value='&quot;Syria&quot;' />
           <member value='&quot;Taipei and environs&quot;' />
           <member value='&quot;Taiwan&quot;' />
-          <member value='&quot;Taiwan*&quot;' />
           <member value='&quot;Tanzania&quot;' />
           <member value='&quot;Thailand&quot;' />
           <member value='&quot;The Bahamas&quot;' />
           <member value='&quot;The Gambia&quot;' />
+          <member value='&quot;Timor-Leste&quot;' />
           <member value='&quot;Togo&quot;' />
           <member value='&quot;Trinidad and Tobago&quot;' />
           <member value='&quot;Tunisia&quot;' />
           <member value='&quot;Turkey&quot;' />
           <member value='&quot;Uganda&quot;' />
-          <member value='&quot;UK&quot;' />
-          <member value='&quot;Ukraine&quot;' />
-          <member value='&quot;United Arab Emirates&quot;' />
-          <member value='&quot;United Kingdom&quot;' />
-          <member value='&quot;Uruguay&quot;' />
-          <member value='&quot;US&quot;' />
-          <member value='&quot;Uzbekistan&quot;' />
-          <member value='&quot;Vatican City&quot;' />
-          <member value='&quot;Venezuela&quot;' />
-          <member value='&quot;Viet Nam&quot;' />
-          <member value='&quot;Vietnam&quot;' />
-          <member value='&quot;Zambia&quot;' />
-          <member value='&quot;Zimbabwe&quot;' />
-        </members>
-      </column>
-      <column caption='Country1' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;US&quot;'>
-        <calculation class='tableau' formula='&quot;US&quot;' />
-        <members>
-          <member value='&quot;Afghanistan&quot;' />
-          <member value='&quot;Albania&quot;' />
-          <member value='&quot;Algeria&quot;' />
-          <member value='&quot;Andorra&quot;' />
-          <member value='&quot;Angola&quot;' />
-          <member value='&quot;Antigua and Barbuda&quot;' />
-          <member value='&quot;Argentina&quot;' />
-          <member value='&quot;Armenia&quot;' />
-          <member value='&quot;Aruba&quot;' />
-          <member value='&quot;Australia&quot;' />
-          <member value='&quot;Austria&quot;' />
-          <member value='&quot;Azerbaijan&quot;' />
-          <member value='&quot;Bahamas, The&quot;' />
-          <member value='&quot;Bahrain&quot;' />
-          <member value='&quot;Bangladesh&quot;' />
-          <member value='&quot;Barbados&quot;' />
-          <member value='&quot;Belarus&quot;' />
-          <member value='&quot;Belgium&quot;' />
-          <member value='&quot;Benin&quot;' />
-          <member value='&quot;Bhutan&quot;' />
-          <member value='&quot;Bolivia&quot;' />
-          <member value='&quot;Bosnia and Herzegovina&quot;' />
-          <member value='&quot;Brazil&quot;' />
-          <member value='&quot;Brunei&quot;' />
-          <member value='&quot;Bulgaria&quot;' />
-          <member value='&quot;Burkina Faso&quot;' />
-          <member value='&quot;Cabo Verde&quot;' />
-          <member value='&quot;Cambodia&quot;' />
-          <member value='&quot;Cameroon&quot;' />
-          <member value='&quot;Canada&quot;' />
-          <member value='&quot;Cape Verde&quot;' />
-          <member value='&quot;Cayman Islands&quot;' />
-          <member value='&quot;Central African Republic&quot;' />
-          <member value='&quot;Chad&quot;' />
-          <member value='&quot;Channel Islands&quot;' />
-          <member value='&quot;Chile&quot;' />
-          <member value='&quot;China&quot;' />
-          <member value='&quot;Colombia&quot;' />
-          <member value='&quot;Congo (Brazzaville)&quot;' />
-          <member value='&quot;Congo (Kinshasa)&quot;' />
-          <member value='&quot;Costa Rica&quot;' />
-          <member value='&quot;Cote d&apos;Ivoire&quot;' />
-          <member value='&quot;Croatia&quot;' />
-          <member value='&quot;Cruise Ship&quot;' />
-          <member value='&quot;Cuba&quot;' />
-          <member value='&quot;Curacao&quot;' />
-          <member value='&quot;Cyprus&quot;' />
-          <member value='&quot;Czech Republic&quot;' />
-          <member value='&quot;Czechia&quot;' />
-          <member value='&quot;Denmark&quot;' />
-          <member value='&quot;Djibouti&quot;' />
-          <member value='&quot;Dominican Republic&quot;' />
-          <member value='&quot;East Timor&quot;' />
-          <member value='&quot;Ecuador&quot;' />
-          <member value='&quot;Egypt&quot;' />
-          <member value='&quot;El Salvador&quot;' />
-          <member value='&quot;Equatorial Guinea&quot;' />
-          <member value='&quot;Eritrea&quot;' />
-          <member value='&quot;Estonia&quot;' />
-          <member value='&quot;Eswatini&quot;' />
-          <member value='&quot;Ethiopia&quot;' />
-          <member value='&quot;Faroe Islands&quot;' />
-          <member value='&quot;Fiji&quot;' />
-          <member value='&quot;Finland&quot;' />
-          <member value='&quot;France&quot;' />
-          <member value='&quot;French Guiana&quot;' />
-          <member value='&quot;Gabon&quot;' />
-          <member value='&quot;Gambia, The&quot;' />
-          <member value='&quot;Georgia&quot;' />
-          <member value='&quot;Germany&quot;' />
-          <member value='&quot;Ghana&quot;' />
-          <member value='&quot;Gibraltar&quot;' />
-          <member value='&quot;Greece&quot;' />
-          <member value='&quot;Greenland&quot;' />
-          <member value='&quot;Guadeloupe&quot;' />
-          <member value='&quot;Guam&quot;' />
-          <member value='&quot;Guatemala&quot;' />
-          <member value='&quot;Guernsey&quot;' />
-          <member value='&quot;Guinea&quot;' />
-          <member value='&quot;Guyana&quot;' />
-          <member value='&quot;Haiti&quot;' />
-          <member value='&quot;Holy See&quot;' />
-          <member value='&quot;Honduras&quot;' />
-          <member value='&quot;Hong Kong&quot;' />
-          <member value='&quot;Hong Kong SAR&quot;' />
-          <member value='&quot;Hungary&quot;' />
-          <member value='&quot;Iceland&quot;' />
-          <member value='&quot;India&quot;' />
-          <member value='&quot;Indonesia&quot;' />
-          <member value='&quot;Iran&quot;' />
-          <member value='&quot;Iran (Islamic Republic of)&quot;' />
-          <member value='&quot;Iraq&quot;' />
-          <member value='&quot;Ireland&quot;' />
-          <member value='&quot;Israel&quot;' />
-          <member value='&quot;Italy&quot;' />
-          <member value='&quot;Ivory Coast&quot;' />
-          <member value='&quot;Jamaica&quot;' />
-          <member value='&quot;Japan&quot;' />
-          <member value='&quot;Jersey&quot;' />
-          <member value='&quot;Jordan&quot;' />
-          <member value='&quot;Kazakhstan&quot;' />
-          <member value='&quot;Kenya&quot;' />
-          <member value='&quot;Korea, South&quot;' />
-          <member value='&quot;Kosovo&quot;' />
-          <member value='&quot;Kuwait&quot;' />
-          <member value='&quot;Kyrgyzstan&quot;' />
-          <member value='&quot;Latvia&quot;' />
-          <member value='&quot;Lebanon&quot;' />
-          <member value='&quot;Liberia&quot;' />
-          <member value='&quot;Liechtenstein&quot;' />
-          <member value='&quot;Lithuania&quot;' />
-          <member value='&quot;Luxembourg&quot;' />
-          <member value='&quot;Macao SAR&quot;' />
-          <member value='&quot;Macau&quot;' />
-          <member value='&quot;Madagascar&quot;' />
-          <member value='&quot;Malaysia&quot;' />
-          <member value='&quot;Maldives&quot;' />
-          <member value='&quot;Malta&quot;' />
-          <member value='&quot;Martinique&quot;' />
-          <member value='&quot;Mauritania&quot;' />
-          <member value='&quot;Mauritius&quot;' />
-          <member value='&quot;Mayotte&quot;' />
-          <member value='&quot;Mexico&quot;' />
-          <member value='&quot;Moldova&quot;' />
-          <member value='&quot;Monaco&quot;' />
-          <member value='&quot;Mongolia&quot;' />
-          <member value='&quot;Montenegro&quot;' />
-          <member value='&quot;Morocco&quot;' />
-          <member value='&quot;Namibia&quot;' />
-          <member value='&quot;Nepal&quot;' />
-          <member value='&quot;Netherlands&quot;' />
-          <member value='&quot;New Zealand&quot;' />
-          <member value='&quot;Nicaragua&quot;' />
-          <member value='&quot;Niger&quot;' />
-          <member value='&quot;Nigeria&quot;' />
-          <member value='&quot;North Ireland&quot;' />
-          <member value='&quot;North Macedonia&quot;' />
-          <member value='&quot;Norway&quot;' />
-          <member value='&quot;Oman&quot;' />
-          <member value='&quot;Others&quot;' />
-          <member value='&quot;Pakistan&quot;' />
-          <member value='&quot;Palestine&quot;' />
-          <member value='&quot;Panama&quot;' />
-          <member value='&quot;Papua New Guinea&quot;' />
-          <member value='&quot;Paraguay&quot;' />
-          <member value='&quot;Peru&quot;' />
-          <member value='&quot;Philippines&quot;' />
-          <member value='&quot;Poland&quot;' />
-          <member value='&quot;Portugal&quot;' />
-          <member value='&quot;Puerto Rico&quot;' />
-          <member value='&quot;Qatar&quot;' />
-          <member value='&quot;Republic of Ireland&quot;' />
-          <member value='&quot;Republic of Korea&quot;' />
-          <member value='&quot;Republic of Moldova&quot;' />
-          <member value='&quot;Republic of the Congo&quot;' />
-          <member value='&quot;Reunion&quot;' />
-          <member value='&quot;Romania&quot;' />
-          <member value='&quot;Russia&quot;' />
-          <member value='&quot;Russian Federation&quot;' />
-          <member value='&quot;Rwanda&quot;' />
-          <member value='&quot;Saint Barthelemy&quot;' />
-          <member value='&quot;Saint Lucia&quot;' />
-          <member value='&quot;Saint Martin&quot;' />
-          <member value='&quot;Saint Vincent and the Grenadines&quot;' />
-          <member value='&quot;San Marino&quot;' />
-          <member value='&quot;Saudi Arabia&quot;' />
-          <member value='&quot;Senegal&quot;' />
-          <member value='&quot;Serbia&quot;' />
-          <member value='&quot;Seychelles&quot;' />
-          <member value='&quot;Singapore&quot;' />
-          <member value='&quot;Slovakia&quot;' />
-          <member value='&quot;Slovenia&quot;' />
-          <member value='&quot;Somalia&quot;' />
-          <member value='&quot;South Africa&quot;' />
-          <member value='&quot;South Korea&quot;' />
-          <member value='&quot;Spain&quot;' />
-          <member value='&quot;Sri Lanka&quot;' />
-          <member value='&quot;St. Martin&quot;' />
-          <member value='&quot;Sudan&quot;' />
-          <member value='&quot;Suriname&quot;' />
-          <member value='&quot;Sweden&quot;' />
-          <member value='&quot;Switzerland&quot;' />
-          <member value='&quot;Taipei and environs&quot;' />
-          <member value='&quot;Taiwan&quot;' />
-          <member value='&quot;Taiwan*&quot;' />
-          <member value='&quot;Tanzania&quot;' />
-          <member value='&quot;Thailand&quot;' />
-          <member value='&quot;The Bahamas&quot;' />
-          <member value='&quot;The Gambia&quot;' />
-          <member value='&quot;Togo&quot;' />
-          <member value='&quot;Trinidad and Tobago&quot;' />
-          <member value='&quot;Tunisia&quot;' />
-          <member value='&quot;Turkey&quot;' />
-          <member value='&quot;Uganda&quot;' />
-          <member value='&quot;UK&quot;' />
           <member value='&quot;Ukraine&quot;' />
           <member value='&quot;United Arab Emirates&quot;' />
           <member value='&quot;United Kingdom&quot;' />
@@ -445,7 +451,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='transformed' name='textscan.1gmz1gr1lfbo8t1cph2jr1mqz8ra'>
-            <connection class='textscan' directory='D:/Dropbox/Data/R Shiny/20-03-20 Covid-19' filename='transformed.csv' password='' port='0' server='' />
+            <connection class='textscan' directory='D:/Dropbox/Data/R Shiny/20-03-20 Covid-19' filename='transformed.csv' password='' port='0' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation connection='textscan.1gmz1gr1lfbo8t1cph2jr1mqz8ra' name='transformed.csv' table='[transformed#csv]' type='table'>
@@ -464,6 +470,7 @@
             <column datatype='real' name='Active_Cases' ordinal='11' />
           </columns>
         </relation>
+        <refresh increment-key='' incremental-updates='false' />
         <metadata-records>
           <metadata-record class='capability'>
             <remote-name />
@@ -620,14 +627,18 @@
       </connection>
       <aliases enabled='yes' />
       <column caption='Active Cases' datatype='real' name='[Active_Cases]' role='measure' type='quantitative' />
-      <column caption='First_Country' datatype='string' name='[Calculation_772085893328953345]' role='dimension' type='nominal'>
-        <calculation class='tableau' formula='[Parameters].[Parameter 1]' />
+      <column caption='Country1_Selector' datatype='integer' name='[Calculation_577868159571632130]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='if [Parameters].[Parameter 1] = [Country/Region] then 1&#13;&#10;else 0&#13;&#10;end' />
       </column>
       <column caption='Country Selector' datatype='integer' name='[Calculation_772085893348143106]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='if [Parameters].[Parameter 1] = [Country/Region] then 1&#13;&#10;ELSEIF [Parameters].[Country1 (copy)_772085893327544320] = [Country/Region] then 1&#13;&#10;else 0&#13;&#10;end' />
       </column>
+      <column datatype='real' default-format='n#,##0;-#,##0' name='[Confirmed]' role='measure' type='quantitative' />
       <column datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
-      <column aggregation='Sum' datatype='integer' name='[Days]' role='dimension' type='ordinal' />
+      <column caption='Country2_Selector' datatype='integer' name='[Country1_Selector (copy)_577868159571730435]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='if [Parameters].[Country1 (copy)_772085893327544320] = [Country/Region] then 1&#13;&#10;else 0&#13;&#10;end' />
+      </column>
+      <column datatype='real' default-format='n#,##0;-#,##0' name='[Deaths]' role='measure' type='quantitative' />
       <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
       <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
       <column caption='New Confirmed' datatype='real' default-format='n#,##0;-#,##0' name='[New_Confirmed]' role='measure' type='quantitative' />
@@ -636,8 +647,176 @@
       <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
         <calculation class='tableau' formula='1' />
       </column>
+      <column datatype='real' default-format='n#,##0;-#,##0' name='[Recovered]' role='measure' type='quantitative' />
       <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
       <column-instance column='[Country/Region]' derivation='None' name='[none:Country/Region:nk]' pivot='key' type='nominal' />
+      <extract count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/Dropbox/Data/R Shiny/covid-data.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='03/23/2020 12:19:39 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh increment-key='' incremental-updates='false'>
+            <refresh-event add-from-file-path='transformed' increment-value='%null%' refresh-type='create' rows-inserted='3915' timestamp-start='2020-03-23 12:19:39.901' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>date</remote-alias>
+              <ordinal>0</ordinal>
+              <family>transformed.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>61</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Days</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Days]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Days</remote-alias>
+              <ordinal>1</ordinal>
+              <family>transformed.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>59</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country/Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country/Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country/Region</remote-alias>
+              <ordinal>2</ordinal>
+              <family>transformed.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>222</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Confirmed</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Confirmed]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Confirmed</remote-alias>
+              <ordinal>3</ordinal>
+              <family>transformed.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>432</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>New_Confirmed</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[New_Confirmed]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>New_Confirmed</remote-alias>
+              <ordinal>4</ordinal>
+              <family>transformed.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>237</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Deaths</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Deaths]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Deaths</remote-alias>
+              <ordinal>5</ordinal>
+              <family>transformed.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>129</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>New_Deaths</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[New_Deaths]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>New_Deaths</remote-alias>
+              <ordinal>6</ordinal>
+              <family>transformed.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Recovered</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Recovered]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Recovered</remote-alias>
+              <ordinal>7</ordinal>
+              <family>transformed.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>160</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>New_Recovered</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[New_Recovered]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>New_Recovered</remote-alias>
+              <ordinal>8</ordinal>
+              <family>transformed.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>132</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Latitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Latitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Latitude</remote-alias>
+              <ordinal>9</ordinal>
+              <family>transformed.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>286</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Longitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Longitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Longitude</remote-alias>
+              <ordinal>10</ordinal>
+              <family>transformed.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>288</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Active_Cases</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Active_Cases]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Active_Cases</remote-alias>
+              <ordinal>11</ordinal>
+              <family>transformed.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>437</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
       <layout dim-ordering='alphabetic' dim-percentage='0.277705' measure-ordering='alphabetic' measure-percentage='0.525424' parameter-percentage='0.196871' show-structure='true' />
       <style>
         <style-rule element='mark'>
@@ -646,7 +825,16 @@
               <bucket>&quot;China&quot;</bucket>
             </map>
             <map to='#4e79a7'>
+              <bucket>&quot;Croatia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
               <bucket>&quot;Nepal&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Syria&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
             </map>
             <map to='#59a14f'>
               <bucket>&quot;Taiwan&quot;</bucket>
@@ -660,14 +848,20 @@
             <map to='#b07aa1'>
               <bucket>&quot;Togo&quot;</bucket>
             </map>
+            <map to='#b71d3e'>
+              <bucket>&quot;Switzerland&quot;</bucket>
+            </map>
             <map to='#bab0ac'>
               <bucket>&quot;Kyrgyzstan&quot;</bucket>
             </map>
             <map to='#e15759'>
-              <bucket>&quot;Canada&quot;</bucket>
+              <bucket>&quot;Algeria&quot;</bucket>
             </map>
             <map to='#edc948'>
               <bucket>&quot;US&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Afghanistan&quot;</bucket>
             </map>
             <map to='#f28e2b'>
               <bucket>&quot;Aruba&quot;</bucket>
@@ -700,16 +894,25 @@
               <bucket>&quot;Suriname&quot;</bucket>
             </map>
             <map to='#f28e2b'>
-              <bucket>&quot;Switzerland&quot;</bucket>
+              <bucket>&quot;Sweden&quot;</bucket>
             </map>
             <map to='#f28e2b'>
               <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Turkey&quot;</bucket>
             </map>
             <map to='#f28e2b'>
               <bucket>&quot;UK&quot;</bucket>
             </map>
             <map to='#f28e2b'>
               <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Vatican City&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;Canada&quot;</bucket>
             </map>
             <map to='#ff9da7'>
               <bucket>&quot;Trinidad and Tobago&quot;</bucket>
@@ -721,25 +924,20 @@
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
       <datasource-dependencies datasource='Parameters'>
-        <column caption='Country2' datatype='string' name='[Country1 (copy)_772085893327544320]' param-domain-type='list' role='measure' type='nominal' value='&quot;Canada&quot;'>
-          <calculation class='tableau' formula='&quot;Canada&quot;' />
+        <column caption='Country2' datatype='string' name='[Country1 (copy)_772085893327544320]' param-domain-type='list' role='measure' type='nominal' value='&quot;Taiwan&quot;'>
+          <calculation class='tableau' formula='&quot;Taiwan&quot;' />
         </column>
-        <column caption='Country1' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;US&quot;'>
-          <calculation class='tableau' formula='&quot;US&quot;' />
+        <column caption='Country1' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;Canada&quot;'>
+          <calculation class='tableau' formula='&quot;Canada&quot;' />
         </column>
       </datasource-dependencies>
     </datasource>
   </datasources>
   <worksheets>
-    <worksheet name='Country 1'>
+    <worksheet name='Country Graph'>
       <layout-options>
         <title>
-          <formatted-text>
-            <run bold='true'>Comparing </run>
-            <run bold='true' fontcolor='#4e79a7'>&lt;[Parameters].[Parameter 1]&gt;</run>
-            <run bold='true'> and </run>
-            <run bold='true' fontcolor='#f28e2b'>&lt;[Parameters].[Country1 (copy)_772085893327544320]&gt;</run>
-          </formatted-text>
+          <formatted-text />
         </title>
       </layout-options>
       <table>
@@ -749,24 +947,24 @@
             <datasource name='Parameters' />
           </datasources>
           <datasource-dependencies datasource='Parameters'>
-            <column caption='Country2' datatype='string' name='[Country1 (copy)_772085893327544320]' param-domain-type='list' role='measure' type='nominal' value='&quot;Canada&quot;'>
-              <calculation class='tableau' formula='&quot;Canada&quot;' />
+            <column caption='Country2' datatype='string' name='[Country1 (copy)_772085893327544320]' param-domain-type='list' role='measure' type='nominal' value='&quot;Taiwan&quot;'>
+              <calculation class='tableau' formula='&quot;Taiwan&quot;' />
             </column>
-            <column caption='Country1' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;US&quot;'>
-              <calculation class='tableau' formula='&quot;US&quot;' />
+            <column caption='Country1' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;Canada&quot;'>
+              <calculation class='tableau' formula='&quot;Canada&quot;' />
             </column>
           </datasource-dependencies>
           <datasource-dependencies datasource='federated.1kw0gnm01tk73c1dehm1o198r908'>
             <column caption='Country Selector' datatype='integer' name='[Calculation_772085893348143106]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='if [Parameters].[Parameter 1] = [Country/Region] then 1&#13;&#10;ELSEIF [Parameters].[Country1 (copy)_772085893327544320] = [Country/Region] then 1&#13;&#10;else 0&#13;&#10;end' />
             </column>
-            <column datatype='real' name='[Confirmed]' role='measure' type='quantitative' />
+            <column datatype='real' default-format='n#,##0;-#,##0' name='[Confirmed]' role='measure' type='quantitative' />
             <column datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
-            <column datatype='real' name='[Deaths]' role='measure' type='quantitative' />
+            <column datatype='real' default-format='n#,##0;-#,##0' name='[Deaths]' role='measure' type='quantitative' />
             <column caption='New Confirmed' datatype='real' default-format='n#,##0;-#,##0' name='[New_Confirmed]' role='measure' type='quantitative' />
             <column caption='New Deaths' datatype='real' default-format='n#,##0;-#,##0' name='[New_Deaths]' role='measure' type='quantitative' />
             <column caption='New Recovered' datatype='real' default-format='n#,##0;-#,##0' name='[New_Recovered]' role='measure' type='quantitative' />
-            <column datatype='real' name='[Recovered]' role='measure' type='quantitative' />
+            <column datatype='real' default-format='n#,##0;-#,##0' name='[Recovered]' role='measure' type='quantitative' />
             <column-instance column='[date]' derivation='Attribute' name='[attr:date:ok]' pivot='key' type='ordinal' />
             <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
             <column-instance column='[date]' derivation='MDY' name='[md:date:ok]' pivot='key' type='ordinal' />
@@ -788,7 +986,15 @@
           </slices>
           <aggregation value='true' />
         </view>
-        <style />
+        <style>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]' value='Select a country to highlight it&apos;s numbers'>
+              <formatted-text>
+                <run>Select a country to highlight it&apos;s numbers</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
         <panes>
           <pane selection-relaxation-option='selection-relaxation-allow'>
             <view>
@@ -802,6 +1008,27 @@
               <lod column='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Deaths:qk]' />
               <lod column='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Recovered:qk]' />
             </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Date:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[md:date:ok]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Country/Region:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Date:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[attr:date:ok]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>New Confirmed:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Confirmed:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>New Deaths:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Deaths:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>New Recovered:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Recovered:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
           </pane>
           <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Confirmed:qk]'>
             <view>
@@ -815,6 +1042,27 @@
               <lod column='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Deaths:qk]' />
               <lod column='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Recovered:qk]' />
             </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Date:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[md:date:ok]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Country/Region:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Date:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[attr:date:ok]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>New Confirmed:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Confirmed:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>New Deaths:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Deaths:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>New Recovered:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Recovered:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
           </pane>
           <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Deaths:qk]'>
             <view>
@@ -828,6 +1076,27 @@
               <lod column='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Deaths:qk]' />
               <lod column='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Recovered:qk]' />
             </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Date:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[md:date:ok]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Country/Region:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Date:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[attr:date:ok]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>New Confirmed:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Confirmed:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>New Deaths:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Deaths:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>New Recovered:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Recovered:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
           </pane>
           <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Recovered:qk]'>
             <view>
@@ -841,6 +1110,27 @@
               <lod column='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Deaths:qk]' />
               <lod column='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Recovered:qk]' />
             </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Date:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[md:date:ok]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Country/Region:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Date:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[attr:date:ok]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>New Confirmed:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Confirmed:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>New Deaths:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Deaths:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>New Recovered:&#9;</run>
+                <run bold='true'>&lt;[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Recovered:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
           </pane>
         </panes>
         <rows>([federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Confirmed:qk] + ([federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Deaths:qk] + [federated.1kw0gnm01tk73c1dehm1o198r908].[sum:New_Recovered:qk]))</rows>
@@ -848,16 +1138,423 @@
       </table>
       <simple-id uuid='{D42EB6D7-EA60-45A4-8199-07D75C44D8FB}' />
     </worksheet>
+    <worksheet name='Days1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed' name='federated.1kw0gnm01tk73c1dehm1o198r908' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Country1' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;Canada&quot;'>
+              <calculation class='tableau' formula='&quot;Canada&quot;' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1kw0gnm01tk73c1dehm1o198r908'>
+            <column caption='Country1_Selector' datatype='integer' name='[Calculation_577868159571632130]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if [Parameters].[Parameter 1] = [Country/Region] then 1&#13;&#10;else 0&#13;&#10;end' />
+            </column>
+            <column datatype='real' default-format='n#,##0;-#,##0' name='[Confirmed]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='integer' name='[Days]' role='measure' type='quantitative' />
+            <column datatype='real' default-format='n#,##0;-#,##0' name='[Deaths]' role='measure' type='quantitative' />
+            <column datatype='real' default-format='n#,##0;-#,##0' name='[Recovered]' role='measure' type='quantitative' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[date]' derivation='MDY' name='[md:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_577868159571632130]' derivation='None' name='[none:Calculation_577868159571632130:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country/Region]' derivation='None' name='[none:Country/Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Confirmed]' derivation='Sum' name='[sum:Confirmed:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Days]' derivation='Sum' name='[sum:Days:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Deaths]' derivation='Sum' name='[sum:Deaths:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Recovered]' derivation='Sum' name='[sum:Recovered:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1kw0gnm01tk73c1dehm1o198r908].[md:date:ok]' filter-group='3'>
+            <groupfilter function='member' level='[md:date:ok]' member='20200322' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Calculation_577868159571632130:qk]' included-values='in-range'>
+            <min>1</min>
+            <max>1</max>
+          </filter>
+          <slices>
+            <column>[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Calculation_577868159571632130:qk]</column>
+            <column>[federated.1kw0gnm01tk73c1dehm1o198r908].[md:date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]' value='79' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='font-size' value='10' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Days:qk]' />
+              <text column='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Confirmed:qk]' />
+              <text column='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Deaths:qk]' />
+              <text column='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Recovered:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>Days Since First Case: &lt;</run>
+                <run>[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Days:qk]</run>
+                <run>&gt;&#10;Total Confirmed Cases: &lt;</run>
+                <run>[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Confirmed:qk]</run>
+                <run>&gt;&#10;Total Deaths: &lt;</run>
+                <run>[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Deaths:qk]</run>
+                <run>&gt;&#10;Total Recovered: &lt;</run>
+                <run>[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Recovered:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{A25C2D29-BE52-4BDA-8265-2DFC534245E9}' />
+    </worksheet>
+    <worksheet name='Days2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed' name='federated.1kw0gnm01tk73c1dehm1o198r908' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Country2' datatype='string' name='[Country1 (copy)_772085893327544320]' param-domain-type='list' role='measure' type='nominal' value='&quot;Taiwan&quot;'>
+              <calculation class='tableau' formula='&quot;Taiwan&quot;' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1kw0gnm01tk73c1dehm1o198r908'>
+            <column datatype='real' default-format='n#,##0;-#,##0' name='[Confirmed]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Country2_Selector' datatype='integer' name='[Country1_Selector (copy)_577868159571730435]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if [Parameters].[Country1 (copy)_772085893327544320] = [Country/Region] then 1&#13;&#10;else 0&#13;&#10;end' />
+            </column>
+            <column datatype='integer' name='[Days]' role='measure' type='quantitative' />
+            <column datatype='real' default-format='n#,##0;-#,##0' name='[Deaths]' role='measure' type='quantitative' />
+            <column datatype='real' default-format='n#,##0;-#,##0' name='[Recovered]' role='measure' type='quantitative' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[date]' derivation='MDY' name='[md:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Country/Region]' derivation='None' name='[none:Country/Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country1_Selector (copy)_577868159571730435]' derivation='None' name='[none:Country1_Selector (copy)_577868159571730435:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Confirmed]' derivation='Sum' name='[sum:Confirmed:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Days]' derivation='Sum' name='[sum:Days:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Deaths]' derivation='Sum' name='[sum:Deaths:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Recovered]' derivation='Sum' name='[sum:Recovered:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1kw0gnm01tk73c1dehm1o198r908].[md:date:ok]' filter-group='3'>
+            <groupfilter function='member' level='[md:date:ok]' member='20200322' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country1_Selector (copy)_577868159571730435:qk]' included-values='in-range'>
+            <min>1</min>
+            <max>1</max>
+          </filter>
+          <slices>
+            <column>[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country1_Selector (copy)_577868159571730435:qk]</column>
+            <column>[federated.1kw0gnm01tk73c1dehm1o198r908].[md:date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]' value='78' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='font-size' value='10' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1kw0gnm01tk73c1dehm1o198r908].[md:date:ok]' value='Select a date to see the totals as of date' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Days:qk]' />
+              <text column='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Confirmed:qk]' />
+              <text column='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Deaths:qk]' />
+              <text column='[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Recovered:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>Days Since First Case: &lt;</run>
+                <run>[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Days:qk]</run>
+                <run>&gt;&#10;Total Confirmed Cases: &lt;</run>
+                <run>[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Confirmed:qk]</run>
+                <run>&gt;&#10;Total Deaths: &lt;</run>
+                <run>[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Deaths:qk]</run>
+                <run>&gt;&#10;Total Recovered: &lt;</run>
+                <run>[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Recovered:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{5A655448-2339-4EA8-A22D-BA5675DA35AC}' />
+    </worksheet>
   </worksheets>
   <dashboards>
-    <dashboard name='Dashboard 1'>
+    <dashboard name='Covid'>
       <style />
       <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
       <datasources>
         <datasource name='Parameters' />
+        <datasource caption='transformed' name='federated.1kw0gnm01tk73c1dehm1o198r908' />
       </datasources>
       <datasource-dependencies datasource='Parameters'>
-        <column caption='Country2' datatype='string' name='[Country1 (copy)_772085893327544320]' param-domain-type='list' role='measure' type='nominal' value='&quot;Canada&quot;'>
+        <column caption='Country2' datatype='string' name='[Country1 (copy)_772085893327544320]' param-domain-type='list' role='measure' type='nominal' value='&quot;Taiwan&quot;'>
+          <calculation class='tableau' formula='&quot;Taiwan&quot;' />
+          <members>
+            <member value='&quot;Afghanistan&quot;' />
+            <member value='&quot;Albania&quot;' />
+            <member value='&quot;Algeria&quot;' />
+            <member value='&quot;Andorra&quot;' />
+            <member value='&quot;Angola&quot;' />
+            <member value='&quot;Antigua and Barbuda&quot;' />
+            <member value='&quot;Argentina&quot;' />
+            <member value='&quot;Armenia&quot;' />
+            <member value='&quot;Aruba&quot;' />
+            <member value='&quot;Australia&quot;' />
+            <member value='&quot;Austria&quot;' />
+            <member value='&quot;Azerbaijan&quot;' />
+            <member value='&quot;Bahamas, The&quot;' />
+            <member value='&quot;Bahrain&quot;' />
+            <member value='&quot;Bangladesh&quot;' />
+            <member value='&quot;Barbados&quot;' />
+            <member value='&quot;Belarus&quot;' />
+            <member value='&quot;Belgium&quot;' />
+            <member value='&quot;Benin&quot;' />
+            <member value='&quot;Bhutan&quot;' />
+            <member value='&quot;Bolivia&quot;' />
+            <member value='&quot;Bosnia and Herzegovina&quot;' />
+            <member value='&quot;Brazil&quot;' />
+            <member value='&quot;Brunei&quot;' />
+            <member value='&quot;Bulgaria&quot;' />
+            <member value='&quot;Burkina Faso&quot;' />
+            <member value='&quot;Cabo Verde&quot;' />
+            <member value='&quot;Cambodia&quot;' />
+            <member value='&quot;Cameroon&quot;' />
+            <member value='&quot;Canada&quot;' />
+            <member value='&quot;Cape Verde&quot;' />
+            <member value='&quot;Cayman Islands&quot;' />
+            <member value='&quot;Central African Republic&quot;' />
+            <member value='&quot;Chad&quot;' />
+            <member value='&quot;Channel Islands&quot;' />
+            <member value='&quot;Chile&quot;' />
+            <member value='&quot;China&quot;' />
+            <member value='&quot;Colombia&quot;' />
+            <member value='&quot;Congo (Brazzaville)&quot;' />
+            <member value='&quot;Congo (Kinshasa)&quot;' />
+            <member value='&quot;Costa Rica&quot;' />
+            <member value='&quot;Cote d&apos;Ivoire&quot;' />
+            <member value='&quot;Croatia&quot;' />
+            <member value='&quot;Cruise Ship&quot;' />
+            <member value='&quot;Cuba&quot;' />
+            <member value='&quot;Curacao&quot;' />
+            <member value='&quot;Cyprus&quot;' />
+            <member value='&quot;Czech Republic&quot;' />
+            <member value='&quot;Czechia&quot;' />
+            <member value='&quot;Denmark&quot;' />
+            <member value='&quot;Djibouti&quot;' />
+            <member value='&quot;Dominica&quot;' />
+            <member value='&quot;Dominican Republic&quot;' />
+            <member value='&quot;East Timor&quot;' />
+            <member value='&quot;Ecuador&quot;' />
+            <member value='&quot;Egypt&quot;' />
+            <member value='&quot;El Salvador&quot;' />
+            <member value='&quot;Equatorial Guinea&quot;' />
+            <member value='&quot;Eritrea&quot;' />
+            <member value='&quot;Estonia&quot;' />
+            <member value='&quot;Eswatini&quot;' />
+            <member value='&quot;Ethiopia&quot;' />
+            <member value='&quot;Faroe Islands&quot;' />
+            <member value='&quot;Fiji&quot;' />
+            <member value='&quot;Finland&quot;' />
+            <member value='&quot;France&quot;' />
+            <member value='&quot;French Guiana&quot;' />
+            <member value='&quot;Gabon&quot;' />
+            <member value='&quot;Gambia, The&quot;' />
+            <member value='&quot;Georgia&quot;' />
+            <member value='&quot;Germany&quot;' />
+            <member value='&quot;Ghana&quot;' />
+            <member value='&quot;Gibraltar&quot;' />
+            <member value='&quot;Greece&quot;' />
+            <member value='&quot;Greenland&quot;' />
+            <member value='&quot;Grenada&quot;' />
+            <member value='&quot;Guadeloupe&quot;' />
+            <member value='&quot;Guam&quot;' />
+            <member value='&quot;Guatemala&quot;' />
+            <member value='&quot;Guernsey&quot;' />
+            <member value='&quot;Guinea&quot;' />
+            <member value='&quot;Guyana&quot;' />
+            <member value='&quot;Haiti&quot;' />
+            <member value='&quot;Holy See&quot;' />
+            <member value='&quot;Honduras&quot;' />
+            <member value='&quot;Hong Kong&quot;' />
+            <member value='&quot;Hong Kong SAR&quot;' />
+            <member value='&quot;Hungary&quot;' />
+            <member value='&quot;Iceland&quot;' />
+            <member value='&quot;India&quot;' />
+            <member value='&quot;Indonesia&quot;' />
+            <member value='&quot;Iran&quot;' />
+            <member value='&quot;Iran (Islamic Republic of)&quot;' />
+            <member value='&quot;Iraq&quot;' />
+            <member value='&quot;Ireland&quot;' />
+            <member value='&quot;Israel&quot;' />
+            <member value='&quot;Italy&quot;' />
+            <member value='&quot;Ivory Coast&quot;' />
+            <member value='&quot;Jamaica&quot;' />
+            <member value='&quot;Japan&quot;' />
+            <member value='&quot;Jersey&quot;' />
+            <member value='&quot;Jordan&quot;' />
+            <member value='&quot;Kazakhstan&quot;' />
+            <member value='&quot;Kenya&quot;' />
+            <member value='&quot;Korea, South&quot;' />
+            <member value='&quot;Kosovo&quot;' />
+            <member value='&quot;Kuwait&quot;' />
+            <member value='&quot;Kyrgyzstan&quot;' />
+            <member value='&quot;Latvia&quot;' />
+            <member value='&quot;Lebanon&quot;' />
+            <member value='&quot;Liberia&quot;' />
+            <member value='&quot;Liechtenstein&quot;' />
+            <member value='&quot;Lithuania&quot;' />
+            <member value='&quot;Luxembourg&quot;' />
+            <member value='&quot;Macao SAR&quot;' />
+            <member value='&quot;Macau&quot;' />
+            <member value='&quot;Madagascar&quot;' />
+            <member value='&quot;Malaysia&quot;' />
+            <member value='&quot;Maldives&quot;' />
+            <member value='&quot;Malta&quot;' />
+            <member value='&quot;Martinique&quot;' />
+            <member value='&quot;Mauritania&quot;' />
+            <member value='&quot;Mauritius&quot;' />
+            <member value='&quot;Mayotte&quot;' />
+            <member value='&quot;Mexico&quot;' />
+            <member value='&quot;Moldova&quot;' />
+            <member value='&quot;Monaco&quot;' />
+            <member value='&quot;Mongolia&quot;' />
+            <member value='&quot;Montenegro&quot;' />
+            <member value='&quot;Morocco&quot;' />
+            <member value='&quot;Mozambique&quot;' />
+            <member value='&quot;Namibia&quot;' />
+            <member value='&quot;Nepal&quot;' />
+            <member value='&quot;Netherlands&quot;' />
+            <member value='&quot;New Zealand&quot;' />
+            <member value='&quot;Nicaragua&quot;' />
+            <member value='&quot;Niger&quot;' />
+            <member value='&quot;Nigeria&quot;' />
+            <member value='&quot;North Ireland&quot;' />
+            <member value='&quot;North Macedonia&quot;' />
+            <member value='&quot;Norway&quot;' />
+            <member value='&quot;Oman&quot;' />
+            <member value='&quot;Others&quot;' />
+            <member value='&quot;Pakistan&quot;' />
+            <member value='&quot;Palestine&quot;' />
+            <member value='&quot;Panama&quot;' />
+            <member value='&quot;Papua New Guinea&quot;' />
+            <member value='&quot;Paraguay&quot;' />
+            <member value='&quot;Peru&quot;' />
+            <member value='&quot;Philippines&quot;' />
+            <member value='&quot;Poland&quot;' />
+            <member value='&quot;Portugal&quot;' />
+            <member value='&quot;Puerto Rico&quot;' />
+            <member value='&quot;Qatar&quot;' />
+            <member value='&quot;Republic of Ireland&quot;' />
+            <member value='&quot;Republic of Korea&quot;' />
+            <member value='&quot;Republic of Moldova&quot;' />
+            <member value='&quot;Republic of the Congo&quot;' />
+            <member value='&quot;Reunion&quot;' />
+            <member value='&quot;Romania&quot;' />
+            <member value='&quot;Russia&quot;' />
+            <member value='&quot;Russian Federation&quot;' />
+            <member value='&quot;Rwanda&quot;' />
+            <member value='&quot;Saint Barthelemy&quot;' />
+            <member value='&quot;Saint Lucia&quot;' />
+            <member value='&quot;Saint Martin&quot;' />
+            <member value='&quot;Saint Vincent and the Grenadines&quot;' />
+            <member value='&quot;San Marino&quot;' />
+            <member value='&quot;Saudi Arabia&quot;' />
+            <member value='&quot;Senegal&quot;' />
+            <member value='&quot;Serbia&quot;' />
+            <member value='&quot;Seychelles&quot;' />
+            <member value='&quot;Singapore&quot;' />
+            <member value='&quot;Slovakia&quot;' />
+            <member value='&quot;Slovenia&quot;' />
+            <member value='&quot;Somalia&quot;' />
+            <member value='&quot;South Africa&quot;' />
+            <member value='&quot;South Korea&quot;' />
+            <member value='&quot;Spain&quot;' />
+            <member value='&quot;Sri Lanka&quot;' />
+            <member value='&quot;St. Martin&quot;' />
+            <member value='&quot;Sudan&quot;' />
+            <member value='&quot;Suriname&quot;' />
+            <member value='&quot;Sweden&quot;' />
+            <member value='&quot;Switzerland&quot;' />
+            <member value='&quot;Syria&quot;' />
+            <member value='&quot;Taipei and environs&quot;' />
+            <member value='&quot;Taiwan&quot;' />
+            <member value='&quot;Tanzania&quot;' />
+            <member value='&quot;Thailand&quot;' />
+            <member value='&quot;The Bahamas&quot;' />
+            <member value='&quot;The Gambia&quot;' />
+            <member value='&quot;Timor-Leste&quot;' />
+            <member value='&quot;Togo&quot;' />
+            <member value='&quot;Trinidad and Tobago&quot;' />
+            <member value='&quot;Tunisia&quot;' />
+            <member value='&quot;Turkey&quot;' />
+            <member value='&quot;Uganda&quot;' />
+            <member value='&quot;Ukraine&quot;' />
+            <member value='&quot;United Arab Emirates&quot;' />
+            <member value='&quot;United Kingdom&quot;' />
+            <member value='&quot;Uruguay&quot;' />
+            <member value='&quot;US&quot;' />
+            <member value='&quot;Uzbekistan&quot;' />
+            <member value='&quot;Vatican City&quot;' />
+            <member value='&quot;Venezuela&quot;' />
+            <member value='&quot;Viet Nam&quot;' />
+            <member value='&quot;Vietnam&quot;' />
+            <member value='&quot;Zambia&quot;' />
+            <member value='&quot;Zimbabwe&quot;' />
+          </members>
+        </column>
+        <column caption='Country1' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;Canada&quot;'>
           <calculation class='tableau' formula='&quot;Canada&quot;' />
           <members>
             <member value='&quot;Afghanistan&quot;' />
@@ -911,6 +1608,7 @@
             <member value='&quot;Czechia&quot;' />
             <member value='&quot;Denmark&quot;' />
             <member value='&quot;Djibouti&quot;' />
+            <member value='&quot;Dominica&quot;' />
             <member value='&quot;Dominican Republic&quot;' />
             <member value='&quot;East Timor&quot;' />
             <member value='&quot;Ecuador&quot;' />
@@ -934,6 +1632,7 @@
             <member value='&quot;Gibraltar&quot;' />
             <member value='&quot;Greece&quot;' />
             <member value='&quot;Greenland&quot;' />
+            <member value='&quot;Grenada&quot;' />
             <member value='&quot;Guadeloupe&quot;' />
             <member value='&quot;Guam&quot;' />
             <member value='&quot;Guatemala&quot;' />
@@ -988,6 +1687,7 @@
             <member value='&quot;Mongolia&quot;' />
             <member value='&quot;Montenegro&quot;' />
             <member value='&quot;Morocco&quot;' />
+            <member value='&quot;Mozambique&quot;' />
             <member value='&quot;Namibia&quot;' />
             <member value='&quot;Nepal&quot;' />
             <member value='&quot;Netherlands&quot;' />
@@ -1042,231 +1742,19 @@
             <member value='&quot;Suriname&quot;' />
             <member value='&quot;Sweden&quot;' />
             <member value='&quot;Switzerland&quot;' />
+            <member value='&quot;Syria&quot;' />
             <member value='&quot;Taipei and environs&quot;' />
             <member value='&quot;Taiwan&quot;' />
-            <member value='&quot;Taiwan*&quot;' />
             <member value='&quot;Tanzania&quot;' />
             <member value='&quot;Thailand&quot;' />
             <member value='&quot;The Bahamas&quot;' />
             <member value='&quot;The Gambia&quot;' />
+            <member value='&quot;Timor-Leste&quot;' />
             <member value='&quot;Togo&quot;' />
             <member value='&quot;Trinidad and Tobago&quot;' />
             <member value='&quot;Tunisia&quot;' />
             <member value='&quot;Turkey&quot;' />
             <member value='&quot;Uganda&quot;' />
-            <member value='&quot;UK&quot;' />
-            <member value='&quot;Ukraine&quot;' />
-            <member value='&quot;United Arab Emirates&quot;' />
-            <member value='&quot;United Kingdom&quot;' />
-            <member value='&quot;Uruguay&quot;' />
-            <member value='&quot;US&quot;' />
-            <member value='&quot;Uzbekistan&quot;' />
-            <member value='&quot;Vatican City&quot;' />
-            <member value='&quot;Venezuela&quot;' />
-            <member value='&quot;Viet Nam&quot;' />
-            <member value='&quot;Vietnam&quot;' />
-            <member value='&quot;Zambia&quot;' />
-            <member value='&quot;Zimbabwe&quot;' />
-          </members>
-        </column>
-        <column caption='Country1' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;US&quot;'>
-          <calculation class='tableau' formula='&quot;US&quot;' />
-          <members>
-            <member value='&quot;Afghanistan&quot;' />
-            <member value='&quot;Albania&quot;' />
-            <member value='&quot;Algeria&quot;' />
-            <member value='&quot;Andorra&quot;' />
-            <member value='&quot;Angola&quot;' />
-            <member value='&quot;Antigua and Barbuda&quot;' />
-            <member value='&quot;Argentina&quot;' />
-            <member value='&quot;Armenia&quot;' />
-            <member value='&quot;Aruba&quot;' />
-            <member value='&quot;Australia&quot;' />
-            <member value='&quot;Austria&quot;' />
-            <member value='&quot;Azerbaijan&quot;' />
-            <member value='&quot;Bahamas, The&quot;' />
-            <member value='&quot;Bahrain&quot;' />
-            <member value='&quot;Bangladesh&quot;' />
-            <member value='&quot;Barbados&quot;' />
-            <member value='&quot;Belarus&quot;' />
-            <member value='&quot;Belgium&quot;' />
-            <member value='&quot;Benin&quot;' />
-            <member value='&quot;Bhutan&quot;' />
-            <member value='&quot;Bolivia&quot;' />
-            <member value='&quot;Bosnia and Herzegovina&quot;' />
-            <member value='&quot;Brazil&quot;' />
-            <member value='&quot;Brunei&quot;' />
-            <member value='&quot;Bulgaria&quot;' />
-            <member value='&quot;Burkina Faso&quot;' />
-            <member value='&quot;Cabo Verde&quot;' />
-            <member value='&quot;Cambodia&quot;' />
-            <member value='&quot;Cameroon&quot;' />
-            <member value='&quot;Canada&quot;' />
-            <member value='&quot;Cape Verde&quot;' />
-            <member value='&quot;Cayman Islands&quot;' />
-            <member value='&quot;Central African Republic&quot;' />
-            <member value='&quot;Chad&quot;' />
-            <member value='&quot;Channel Islands&quot;' />
-            <member value='&quot;Chile&quot;' />
-            <member value='&quot;China&quot;' />
-            <member value='&quot;Colombia&quot;' />
-            <member value='&quot;Congo (Brazzaville)&quot;' />
-            <member value='&quot;Congo (Kinshasa)&quot;' />
-            <member value='&quot;Costa Rica&quot;' />
-            <member value='&quot;Cote d&apos;Ivoire&quot;' />
-            <member value='&quot;Croatia&quot;' />
-            <member value='&quot;Cruise Ship&quot;' />
-            <member value='&quot;Cuba&quot;' />
-            <member value='&quot;Curacao&quot;' />
-            <member value='&quot;Cyprus&quot;' />
-            <member value='&quot;Czech Republic&quot;' />
-            <member value='&quot;Czechia&quot;' />
-            <member value='&quot;Denmark&quot;' />
-            <member value='&quot;Djibouti&quot;' />
-            <member value='&quot;Dominican Republic&quot;' />
-            <member value='&quot;East Timor&quot;' />
-            <member value='&quot;Ecuador&quot;' />
-            <member value='&quot;Egypt&quot;' />
-            <member value='&quot;El Salvador&quot;' />
-            <member value='&quot;Equatorial Guinea&quot;' />
-            <member value='&quot;Eritrea&quot;' />
-            <member value='&quot;Estonia&quot;' />
-            <member value='&quot;Eswatini&quot;' />
-            <member value='&quot;Ethiopia&quot;' />
-            <member value='&quot;Faroe Islands&quot;' />
-            <member value='&quot;Fiji&quot;' />
-            <member value='&quot;Finland&quot;' />
-            <member value='&quot;France&quot;' />
-            <member value='&quot;French Guiana&quot;' />
-            <member value='&quot;Gabon&quot;' />
-            <member value='&quot;Gambia, The&quot;' />
-            <member value='&quot;Georgia&quot;' />
-            <member value='&quot;Germany&quot;' />
-            <member value='&quot;Ghana&quot;' />
-            <member value='&quot;Gibraltar&quot;' />
-            <member value='&quot;Greece&quot;' />
-            <member value='&quot;Greenland&quot;' />
-            <member value='&quot;Guadeloupe&quot;' />
-            <member value='&quot;Guam&quot;' />
-            <member value='&quot;Guatemala&quot;' />
-            <member value='&quot;Guernsey&quot;' />
-            <member value='&quot;Guinea&quot;' />
-            <member value='&quot;Guyana&quot;' />
-            <member value='&quot;Haiti&quot;' />
-            <member value='&quot;Holy See&quot;' />
-            <member value='&quot;Honduras&quot;' />
-            <member value='&quot;Hong Kong&quot;' />
-            <member value='&quot;Hong Kong SAR&quot;' />
-            <member value='&quot;Hungary&quot;' />
-            <member value='&quot;Iceland&quot;' />
-            <member value='&quot;India&quot;' />
-            <member value='&quot;Indonesia&quot;' />
-            <member value='&quot;Iran&quot;' />
-            <member value='&quot;Iran (Islamic Republic of)&quot;' />
-            <member value='&quot;Iraq&quot;' />
-            <member value='&quot;Ireland&quot;' />
-            <member value='&quot;Israel&quot;' />
-            <member value='&quot;Italy&quot;' />
-            <member value='&quot;Ivory Coast&quot;' />
-            <member value='&quot;Jamaica&quot;' />
-            <member value='&quot;Japan&quot;' />
-            <member value='&quot;Jersey&quot;' />
-            <member value='&quot;Jordan&quot;' />
-            <member value='&quot;Kazakhstan&quot;' />
-            <member value='&quot;Kenya&quot;' />
-            <member value='&quot;Korea, South&quot;' />
-            <member value='&quot;Kosovo&quot;' />
-            <member value='&quot;Kuwait&quot;' />
-            <member value='&quot;Kyrgyzstan&quot;' />
-            <member value='&quot;Latvia&quot;' />
-            <member value='&quot;Lebanon&quot;' />
-            <member value='&quot;Liberia&quot;' />
-            <member value='&quot;Liechtenstein&quot;' />
-            <member value='&quot;Lithuania&quot;' />
-            <member value='&quot;Luxembourg&quot;' />
-            <member value='&quot;Macao SAR&quot;' />
-            <member value='&quot;Macau&quot;' />
-            <member value='&quot;Madagascar&quot;' />
-            <member value='&quot;Malaysia&quot;' />
-            <member value='&quot;Maldives&quot;' />
-            <member value='&quot;Malta&quot;' />
-            <member value='&quot;Martinique&quot;' />
-            <member value='&quot;Mauritania&quot;' />
-            <member value='&quot;Mauritius&quot;' />
-            <member value='&quot;Mayotte&quot;' />
-            <member value='&quot;Mexico&quot;' />
-            <member value='&quot;Moldova&quot;' />
-            <member value='&quot;Monaco&quot;' />
-            <member value='&quot;Mongolia&quot;' />
-            <member value='&quot;Montenegro&quot;' />
-            <member value='&quot;Morocco&quot;' />
-            <member value='&quot;Namibia&quot;' />
-            <member value='&quot;Nepal&quot;' />
-            <member value='&quot;Netherlands&quot;' />
-            <member value='&quot;New Zealand&quot;' />
-            <member value='&quot;Nicaragua&quot;' />
-            <member value='&quot;Niger&quot;' />
-            <member value='&quot;Nigeria&quot;' />
-            <member value='&quot;North Ireland&quot;' />
-            <member value='&quot;North Macedonia&quot;' />
-            <member value='&quot;Norway&quot;' />
-            <member value='&quot;Oman&quot;' />
-            <member value='&quot;Others&quot;' />
-            <member value='&quot;Pakistan&quot;' />
-            <member value='&quot;Palestine&quot;' />
-            <member value='&quot;Panama&quot;' />
-            <member value='&quot;Papua New Guinea&quot;' />
-            <member value='&quot;Paraguay&quot;' />
-            <member value='&quot;Peru&quot;' />
-            <member value='&quot;Philippines&quot;' />
-            <member value='&quot;Poland&quot;' />
-            <member value='&quot;Portugal&quot;' />
-            <member value='&quot;Puerto Rico&quot;' />
-            <member value='&quot;Qatar&quot;' />
-            <member value='&quot;Republic of Ireland&quot;' />
-            <member value='&quot;Republic of Korea&quot;' />
-            <member value='&quot;Republic of Moldova&quot;' />
-            <member value='&quot;Republic of the Congo&quot;' />
-            <member value='&quot;Reunion&quot;' />
-            <member value='&quot;Romania&quot;' />
-            <member value='&quot;Russia&quot;' />
-            <member value='&quot;Russian Federation&quot;' />
-            <member value='&quot;Rwanda&quot;' />
-            <member value='&quot;Saint Barthelemy&quot;' />
-            <member value='&quot;Saint Lucia&quot;' />
-            <member value='&quot;Saint Martin&quot;' />
-            <member value='&quot;Saint Vincent and the Grenadines&quot;' />
-            <member value='&quot;San Marino&quot;' />
-            <member value='&quot;Saudi Arabia&quot;' />
-            <member value='&quot;Senegal&quot;' />
-            <member value='&quot;Serbia&quot;' />
-            <member value='&quot;Seychelles&quot;' />
-            <member value='&quot;Singapore&quot;' />
-            <member value='&quot;Slovakia&quot;' />
-            <member value='&quot;Slovenia&quot;' />
-            <member value='&quot;Somalia&quot;' />
-            <member value='&quot;South Africa&quot;' />
-            <member value='&quot;South Korea&quot;' />
-            <member value='&quot;Spain&quot;' />
-            <member value='&quot;Sri Lanka&quot;' />
-            <member value='&quot;St. Martin&quot;' />
-            <member value='&quot;Sudan&quot;' />
-            <member value='&quot;Suriname&quot;' />
-            <member value='&quot;Sweden&quot;' />
-            <member value='&quot;Switzerland&quot;' />
-            <member value='&quot;Taipei and environs&quot;' />
-            <member value='&quot;Taiwan&quot;' />
-            <member value='&quot;Taiwan*&quot;' />
-            <member value='&quot;Tanzania&quot;' />
-            <member value='&quot;Thailand&quot;' />
-            <member value='&quot;The Bahamas&quot;' />
-            <member value='&quot;The Gambia&quot;' />
-            <member value='&quot;Togo&quot;' />
-            <member value='&quot;Trinidad and Tobago&quot;' />
-            <member value='&quot;Tunisia&quot;' />
-            <member value='&quot;Turkey&quot;' />
-            <member value='&quot;Uganda&quot;' />
-            <member value='&quot;UK&quot;' />
             <member value='&quot;Ukraine&quot;' />
             <member value='&quot;United Arab Emirates&quot;' />
             <member value='&quot;United Kingdom&quot;' />
@@ -1282,12 +1770,16 @@
           </members>
         </column>
       </datasource-dependencies>
+      <datasource-dependencies datasource='federated.1kw0gnm01tk73c1dehm1o198r908'>
+        <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+        <column-instance column='[date]' derivation='MDY' name='[md:date:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
       <zones>
         <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
-          <zone h='91500' id='9' param='horz' type='layout-flow' w='98400' x='800' y='7500'>
-            <zone h='91500' id='7' param='horz' type='layout-flow' w='98400' x='800' y='7500'>
-              <zone h='91500' id='5' type='layout-basic' w='98400' x='800' y='7500'>
-                <zone h='91500' id='3' name='Country 1' w='98400' x='800' y='7500'>
+          <zone h='75750' id='9' param='horz' type='layout-flow' w='98400' x='800' y='23250'>
+            <zone h='75750' id='7' param='horz' type='layout-flow' w='98400' x='800' y='23250'>
+              <zone h='75750' id='5' type='layout-basic' w='98400' x='800' y='23250'>
+                <zone h='75750' id='3' name='Country Graph' w='98400' x='800' y='23250'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1298,8 +1790,34 @@
               </zone>
             </zone>
           </zone>
-          <zone h='6500' id='12' type='layout-flow' w='49200' x='800' y='1000'>
-            <zone h='6500' id='10' mode='compact' param='[Parameters].[Parameter 1]' type='paramctrl' w='49200' x='800' y='1000'>
+          <zone h='5250' id='49' type='layout-basic' w='31300' x='38800' y='6875'>
+            <zone h='5250' id='50' param='horz' type='layout-flow' w='31300' x='38800' y='6875'>
+              <zone custom-title='true' h='5250' id='10' mode='compact' param='[Parameters].[Parameter 1]' type='paramctrl' w='31300' x='38800' y='6875'>
+                <formatted-text>
+                  <run>Country 1</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone custom-title='true' h='5250' id='11' mode='compact' param='[Parameters].[Country1 (copy)_772085893327544320]' type='paramctrl' w='29100' x='70100' y='6875'>
+            <formatted-text>
+              <run>Country 2</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='5875' id='34' type='layout-flow' w='49200' x='50000' y='1000'>
+            <zone h='5875' id='33' name='Country Graph' pane-specification-id='1' param='[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]' type='color' w='49200' x='50000' y='1000'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -1308,7 +1826,48 @@
               </zone-style>
             </zone>
           </zone>
-          <zone h='6500' id='11' mode='compact' param='[Parameters].[Country1 (copy)_772085893327544320]' type='paramctrl' w='49200' x='50000' y='1000'>
+          <zone h='11125' id='40' name='Days1' show-title='false' w='31300' x='38800' y='12125'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='11125' id='41' name='Days2' show-title='false' w='29100' x='70100' y='12125'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='11125' id='46' mode='dropdown' name='Days2' param='[federated.1kw0gnm01tk73c1dehm1o198r908].[md:date:ok]' show-all='false' type='filter' values='database' w='38000' x='800' y='12125'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='5875' id='12' param='horz' type='layout-flow' w='49200' x='800' y='1000'>
+            <zone fixed-size='302' forceUpdate='true' h='4500' id='35' is-fixed='true' type='text' w='49200' x='800' y='1000'>
+              <formatted-text>
+                <run fontcolor='#000000' fontsize='15'>Comparing &lt;</run>
+                <run fontcolor='#000000' fontsize='15'>[Parameters].[Parameter 1]</run>
+                <run fontcolor='#000000' fontsize='15'>&gt; and &lt;</run>
+                <run fontcolor='#000000' fontsize='15'>[Parameters].[Country1 (copy)_772085893327544320]</run>
+                <run fontcolor='#000000' fontsize='15'>&gt;</run>
+              </formatted-text>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone h='5250' id='51' type='text' w='38000' x='800' y='6875'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -1325,12 +1884,19 @@
         </zone>
       </zones>
       <devicelayouts>
-        <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+        <devicelayout name='Phone'>
+          <size maxheight='900' minheight='900' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='30' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='29' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
-                <zone h='6500' id='10' mode='compact' param='[Parameters].[Parameter 1]' type='paramctrl' w='49200' x='800' y='1000'>
+            <zone h='100000' id='71' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='70' param='vert' type='layout-flow' w='95734' x='2133' y='889'>
+                <zone fixed-size='302' forceUpdate='true' h='4000' id='35' type='text' w='95734' x='2133' y='889'>
+                  <formatted-text>
+                    <run fontcolor='#000000' fontsize='15'>Comparing &lt;</run>
+                    <run fontcolor='#000000' fontsize='15'>[Parameters].[Parameter 1]</run>
+                    <run fontcolor='#000000' fontsize='15'>&gt; and &lt;</run>
+                    <run fontcolor='#000000' fontsize='15'>[Parameters].[Country1 (copy)_772085893327544320]</run>
+                    <run fontcolor='#000000' fontsize='15'>&gt;</run>
+                  </formatted-text>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1339,7 +1905,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='6500' id='11' mode='compact' param='[Parameters].[Country1 (copy)_772085893327544320]' type='paramctrl' w='49200' x='50000' y='1000'>
+                <zone h='5889' id='46' mode='dropdown' name='Days2' param='[federated.1kw0gnm01tk73c1dehm1o198r908].[md:date:ok]' show-all='false' type='filter' values='database' w='95734' x='2133' y='4889'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1348,7 +1914,61 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='91500' id='3' is-fixed='true' name='Country 1' w='98400' x='800' y='7500'>
+                <zone custom-title='true' h='5778' id='10' mode='compact' param='[Parameters].[Parameter 1]' type='paramctrl' w='95734' x='2133' y='10778'>
+                  <formatted-text>
+                    <run>Country 1</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='81' h='9889' id='40' is-fixed='true' name='Days1' show-title='false' w='95734' x='2133' y='16556'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone custom-title='true' h='5778' id='11' mode='compact' param='[Parameters].[Country1 (copy)_772085893327544320]' type='paramctrl' w='95734' x='2133' y='26445'>
+                  <formatted-text>
+                    <run>Country 2</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='81' h='9889' id='41' is-fixed='true' name='Days2' show-title='false' w='95734' x='2133' y='32223'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7333' id='33' name='Country Graph' pane-specification-id='1' param='[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]' type='color' w='95734' x='2133' y='42112'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='32000' id='3' is-fixed='true' name='Country Graph' w='95734' x='2133' y='49445'>
+                  <layout-cache minheight='402' type-h='scalable' type-w='fixed' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1372,7 +1992,23 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='worksheet' name='Country 1'>
+    <window class='dashboard' maximized='true' name='Covid'>
+      <viewpoints>
+        <viewpoint name='Country Graph'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Days1' />
+        <viewpoint name='Days2' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{A6AB5F08-1586-4770-B8AB-46FA8FA8AF46}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Country Graph'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1397,6 +2033,7 @@
             <card mode='compact' param='[Parameters].[Parameter 1]' type='parameter' />
             <card mode='compact' param='[Parameters].[Country1 (copy)_772085893327544320]' type='parameter' />
             <card pane-specification-id='1' param='[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]' type='color' />
+            <card param='[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]' type='highlighter' />
           </strip>
         </edge>
       </cards>
@@ -1414,337 +2051,328 @@
       </viewpoint>
       <simple-id uuid='{CE3EDCC3-1C81-47CC-B8CB-0D4D4D0E6440}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 1'>
-      <viewpoints>
-        <viewpoint name='Country 1'>
-          <zoom type='entire-view' />
-        </viewpoint>
-      </viewpoints>
-      <active id='10' />
-      <simple-id uuid='{A6AB5F08-1586-4770-B8AB-46FA8FA8AF46}' />
+    <window class='worksheet' hidden='true' name='Days1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields>
+                    <field>[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]</field>
+                  <field>[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Confirmed:qk]</field>
+                  <field>[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Days:qk]</field>
+                  <field>[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Deaths:qk]</field>
+                  <field>[federated.1kw0gnm01tk73c1dehm1o198r908].[sum:Recovered:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;United Kingdom&quot;</value>
+                <value>5741.0</value>
+                <value>52</value>
+                <value>282.0</value>
+                <value>67.0</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kw0gnm01tk73c1dehm1o198r908].[md:date:ok]</field>
+            <field>[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Calculation_577868159571632130:qk]</field>
+            <field>[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]</field>
+            <field>[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Days:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9402F2FC-4C32-4E61-9F2E-DFBC39944046}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Days2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kw0gnm01tk73c1dehm1o198r908].[md:date:ok]</field>
+            <field>[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Calculation_577868159571632130:qk]</field>
+            <field>[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country/Region:nk]</field>
+            <field>[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Country1_Selector (copy)_577868159571730435:qk]</field>
+            <field>[federated.1kw0gnm01tk73c1dehm1o198r908].[none:Days:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AC83FAA4-3DAB-4AA5-A170-E359A261C57A}' />
     </window>
   </windows>
   <thumbnails>
-    <thumbnail height='192' name='Country 1' width='192'>
+    <thumbnail height='192' name='Covid' width='192'>
       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
-      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
-    </thumbnail>
-    <thumbnail height='192' name='Dashboard 1' width='192'>
-      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
-      x2jzsPn/ooxblMHWpeIAAAAASUVORK5CYII=
+      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
     </thumbnail>
   </thumbnails>
 </workbook>
