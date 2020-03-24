@@ -21,6 +21,7 @@ This is a collaborative effort by [Hisan Shafaque](https://www.linkedin.com/in/h
 ### Prerequisites
 
 Python and Jupyter Notebook are required to run the iPython Notebooks
+
 Tableau Dasktop is required to run the visualization. You can find an online version of the work on Tableau Public.
 
 
