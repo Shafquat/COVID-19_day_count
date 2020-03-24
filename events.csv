@@ -2,15 +2,15 @@ Country,Event,Date
 China,"Wuhan enacts a new rule prohibiting people from leaving their neighbourhoods for non-medical reasons, updating the curfew to a full lockdown.",13-02-2020
 China,"The government announced a quarantine until further notice, cancelling outgoing flights and trains from Wuhan, and suspending public transportation in Wuhan",22-01-2020
 Mongolia,"Mongolia closed its border with China, shut down schools until 2 March, and called for all public gatherings to be cancelled.",27-01-2020
-China,British Airways and Lufthansa cancel all flights to and from mainland China.,29-01-2020
-United Kingdom,British Airways cancel all flights to and from mainland China.,29-01-2020
-Germany,Lufthansa cancel all flights to and from mainland China.,29-01-2020
-China,Air France and KLM cancel all flights to mainland China,30-01-2020
-China,Wuhan suspended all public transportation,23-01-2020
-China,Air Canada suspended all direct flights to China,29-01-2020
-Canada,Air Canada suspended all direct flights to China,29-01-2020
-US,Delta Airlines suspends all China flights,31-01-2020
-China,Delta Airlines suspends all China flights,31-01-2020
+China,British Airways and Lufthansa cancel all flights to and from mainland China.,29-01-2020
+United Kingdom,British Airways cancel all flights to and from mainland China.,29-01-2020
+Germany,Lufthansa cancel all flights to and from mainland China.,29-01-2020
+China,Air France and KLM cancel all flights to mainland China,30-01-2020
+China,Wuhan suspended all public transportation,23-01-2020
+China,Air Canada suspended all direct flights to China,29-01-2020
+Canada,Air Canada suspended all direct flights to China,29-01-2020
+US,Delta Airlines suspends all China flights,31-01-2020
+China,Delta Airlines suspends all China flights,31-01-2020
 Turkey,Turkey shut down its border with Iran and banned all incoming flights,23-02-2020
 Pakistan,Pakistan also closed its border with Iran,23-02-2020
 Afghanistan,Afghanistan suspends travel to and from Iran,23-02-2020
@@ -18,12 +18,12 @@ Jordan,"Jordan bans citizens from China, Iran, and South Korea.",23-02-2020
 Italy,"Italy introduces strict measures which place almost 50,000 people in lockdown",23-02-2020
 Bahrain,"Bahrain suspended all schools, nurseries and universities",25-02-2020
 Iraq,"Iraq banned travellers from China, Iran, Thailand, South Korea, Japan, Italy, and Singapore",25-02-2020
-Qatar,Qatar Airways has suspended flights to mainland China,01-02-2020
+Qatar,Qatar Airways has suspended flights to mainland China,01-02-2020
 New Zealand,New Zealand Government temporarily banned travelers from Iran.,28-02-2020
 US,"The United States bans travel from Iran, and increases its travel warnings to Italy and South Korea.",29-02-2020
 Singapore,"Singapore will ban visitors arriving from South Korea, Iran and northern Italy",03-03-2020
 France,France has closed about 120 schools,03-03-2020
-Saudi Arabia,Saudi Arabia suspended the umrah pilgrimage ,04-03-2020
+Saudi Arabia,Saudi Arabia suspended the umrah pilgrimage,04-03-2020
 Indonesia,"Indonesia will ban travelers arriving from the worst-affected regions of Iran, Italy and South Korea",05-03-2020
 Portugal,Portugal canceled all his public activities,08-03-2020
 France,France banned gatherings of over 1000 people,08-03-2020
@@ -32,16 +32,16 @@ Italy,Italy imposes a country-wide quarantine,09-03-2020
 Czech Republic,All primary and secondary schools in the Czech Republic were closed.,10-03-2020
 Greece,"All primary and secondary schools, universities and cram schools closed in Greece",10-03-2020
 Panama,Panama suspended the school year and activities involving large amounts of people,10-03-2020
-Poland,All schools and universities in Poland closed,11-03-2021
-Denmark,"The Prime Minister of Denmark announced that all schools, universities and kindergartens will be shut down",11-03-2021
-US,The U.S. and Canada's National Basketball Association announced that it will suspend the remainder of its 2020 season,11-03-2021
-Israel,Israel bans gatherings exceeding 100 people after a spike in cases,11-03-2021
-US,All travel from Europe (except UK) into the United States will be suspended,11-03-2021
+Poland,All schools and universities in Poland closed,11-03-2020
+Denmark,"The Prime Minister of Denmark announced that all schools, universities and kindergartens will be shut down",11-03-2020
+US,The U.S. and Canada's National Basketball Association announced that it will suspend the remainder of its 2020 season,11-03-2020
+Israel,Israel bans gatherings exceeding 100 people after a spike in cases,11-03-2020
+US,All travel from Europe (except UK) into the United States will be suspended,11-03-2020
 Turkey,"Turkey closes all primary, secondary and high schools for a week, and universities for three weeks starting",16-03-2020
 Canada,The National Hockey League indefinitely pauses the remainder of its 2020 season,12-03-2020
 Czech Republic,The Czech Republic announced a complete travel ban,16-03-2020
 Switzerland,"Switzerland issued sweeping restrictions on places of public gatherings, closing schools throughout the country and imposing a ban on public gatherings of more than 100 people",13-03-2020
-United Kingdom,"Premier League, along with the English Football League and FA Women's Super League, suspended their respective seasons until April ",13-03-2020
+United Kingdom,"Premier League, along with the English Football League and FA Women's Super League, suspended their respective seasons until April",13-03-2020
 Malaysia,"Cancellation or postponement of all public gatherings including international meetings, sport, social and religious events in Malaysia",14-03-2020
 Panama,Panama banned all flights from and to Europe and Asia,14-03-2020
 South Africa,Prohibition of gatherings of more than 100 people in motion in South Africa,14-03-2020
