@@ -19,7 +19,7 @@ This is a collaborative effort by [Hisan Shafaque](https://www.linkedin.com/in/h
 
 ## Data Sources: 
 
-[John Hopkins University](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports)
+[Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports)
 
 [Wikipedia Timeline of the 2019–20 coronavirus pandemic](https://en.wikipedia.org/wiki/Timeline_of_the_2019%E2%80%9320_coronavirus_pandemic)
 
