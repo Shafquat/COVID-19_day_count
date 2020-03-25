@@ -27,7 +27,7 @@ This is a collaborative effort by [Hisan Shafaque](https://www.linkedin.com/in/h
 
 Python and Jupyter Notebook are required to run the iPython Notebooks
 
-Tableau Dasktop is required to run the visualization. You can find an online version of the work on [Tableau Public](https://public.tableau.com/profile/hisan.shafaque#!/vizhome/ComparingCovid-19inDifferentCountries/Covid).
+Tableau Desktop is required to run the visualization. You can find an online version of the work on [Tableau Public](https://public.tableau.com/profile/hisan.shafaque#!/vizhome/ComparingCovid-19inDifferentCountries/Covid).
 
 
 ## Authors
